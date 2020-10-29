@@ -1,0 +1,12 @@
+.MuiCard-root{
+        max-width: 30% !important;
+    margin: 1%;
+    border-radius: 15% !important;
+    background-color: cornflowerblue !important;
+}
+.MuiCardMedia-root {
+    height: 285px !important;
+}
+.MuiCardActionArea-root {
+    text-align: center !important;
+}
