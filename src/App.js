@@ -10,6 +10,7 @@ function App() {
   const [search, setSearch] = useState('');
   const [rate, setRate] = useState('');
   const handleAdd = (title, description, url, rate) => {
+    if (title !== '' & description !== '' & url !== '' & rate < 6)
     setItems([...items, { title: title, description: description, posteUrl: url, rate: rate }])
   };
   return (
